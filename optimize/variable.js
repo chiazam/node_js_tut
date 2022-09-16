@@ -29,8 +29,7 @@ console.log(foo.bar) // 2
 // Another powerful new feature is destructuring, which allows us to easily assign
 // the values of arrays to new variables: 
 
-let [executable, absPath, target, ...message] =
-process.argv;
+let [executable, absPath, target, ...message] = process.argv;
 
 // Destructuring allows you to rapidly map arrays to variable names. Since
 // process.argv is an array, which always contains the path to the Node executable
