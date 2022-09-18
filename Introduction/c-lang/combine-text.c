@@ -1,4 +1,5 @@
-// Now, let's port each program to the other language and platform. First, from the preceding combine-text.js, let's write C code.
+// Now, let's port each program to the other language and platform.
+//  First, from the preceding combine-text.js, let's write C code.
 const char *s1 = "first string";
 const char *s2 = "second string";
 int size = strlen(s1) + strlen(s2);

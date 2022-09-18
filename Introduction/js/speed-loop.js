@@ -1,4 +1,5 @@
-// With V8 under the hood, how fast can Node run JavaScript? Let's write a little program to show execution speed
+// With V8 under the hood, how fast can Node run JavaScript?
+//  Let's write a little program to show execution speed
 
 function main() {
     const cycles = 1000000000;
