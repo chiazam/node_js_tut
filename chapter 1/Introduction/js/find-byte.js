@@ -1,4 +1,6 @@
-// Secondly, let's attempt the reverse: from the find-byte.c code prior, let's write js code Before Node, it was not possible to use JavaScript to search a block of memory for a specific byte. In the browser, JavaScript can't allocate a buffer, and doesn't even have a type for byte. But with Node, it's both possible and easy
+// Secondly, let's attempt the reverse: from the find-byte.c code prior,
+//  let's write js code Before Node, it was not possible to use JavaScript to search a block of memory for a specific byte. 
+// In the browser, JavaScript can't allocate a buffer, and doesn't even have a type for byte. But with Node, it's both possible and easy
 
 function find_byte(buffer, b) {
     let i;
